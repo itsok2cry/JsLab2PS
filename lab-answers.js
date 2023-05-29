@@ -26,9 +26,21 @@ for(let i=0; i <= 100; i++){
 }
 }
 ////////////////////////////////
-// Easy Going
+// Wild Wild Life
 ////////////////////////////////
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+wolfy.splice(3,1,'Gotham City')
 
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+plantee.splice(2,1 , 5001)
+
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+wolfy.splice(0,1,'GameBoy')
+
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+dart.push('Hawkins')
 
 ////////////////////////////////
 // Get Even
