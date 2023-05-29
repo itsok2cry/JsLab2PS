@@ -43,9 +43,12 @@ const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 dart.push('Hawkins')
 
 ////////////////////////////////
-// Get Even
+// Yell At The Ninja Turtles
 ////////////////////////////////
-
+let newArr= ['Leaonardo','Donatello','Raphael','Michaelangelo']
+for(const name of newArr){
+  name.toUpperCase()
+}
 
 ////////////////////////////////
 // Fizz Buzz
