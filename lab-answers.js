@@ -51,8 +51,21 @@ for(const name of newArr){
 }
 
 ////////////////////////////////
-// Fizz Buzz
+// Methods Revisited
 ////////////////////////////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+console.log(favMovies.indexOf("Titanic"));
+favMovies.sort();
+favMovies.pop();
+favMovies.push("Guardians Of the Galaxy");
+favMovies.reverse();
+favMovies.shift();
+favMovies.splice(14,1,'Avatar');
+let half =Math.ceil(favMovies.length / 2);
+let middle= favMovies.slice(0,half);
+console.log(middle);
+console.log(favMovies);
+console.log(favMovies.indexOf(('Fast and Furious')));
 
 ////////////////////////////////
 // Easy Going
