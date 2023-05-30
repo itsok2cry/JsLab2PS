@@ -70,6 +70,12 @@ console.log(favMovies.indexOf(('Fast and Furious')));
 ////////////////////////////////
 // Where Is Waldo
 ////////////////////////////////
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                      ["Lucinda", "Jacc", "Neff", "Snoop"],
+                      ["Petunia", ["Baked Goods", "Waldo"]]];
+whereIsWaldo.splice(1,1);
+whereIsWaldo[1].splice(2,1, "No One");
+console.log(whereIsWaldo[2].slice(1,2));
 
 ////////////////////////////////
 // Excited Kittens
