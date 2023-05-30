@@ -68,9 +68,16 @@ console.log(favMovies);
 console.log(favMovies.indexOf(('Fast and Furious')));
 
 ////////////////////////////////
-// Easy Going
+// Excited Kittens
 ////////////////////////////////
-
+let kittyTalk=["...human... why you taking pictures of me...?", "...the catnip made me do it...","...why does the red dot always get away...?"]
+let meow= 0
+for(let i=0; i <= 20; i++){
+  console.log("Love me, pet me! HSSSSSS!");
+  if(i % 2=== 0){
+   meow = Math.floor(Math.random() *2)
+    console.log(kittyTalk[meow])
+}}
 
 ////////////////////////////////
 // Get Even
